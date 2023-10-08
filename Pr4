@@ -1,0 +1,35 @@
+n=int(input())
+x=0
+for i in range(1, n+1):
+    x+=i**3
+print(x)
+
+#задание 1
+a=int(input())
+b=int(input())
+for i1 in range(a, b+1):
+  print(i1)
+
+#задание 3
+a1=int(input())
+b1=int(input())
+for i2 in range(a,b-1,-1):
+  if i2 % 2 == 0:
+    print(i2)
+
+#задание 4
+n1=0
+a2=int(input())
+for i4 in range(a):
+  b2=int(input())
+  n1+=b2
+print(n)
+
+#задание 7
+n2=int(input())
+s=1
+b3=1
+for i5 in range(1,n+1):
+  s*=i5
+  b*=s
+print(b3)
