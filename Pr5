@@ -1,0 +1,18 @@
+#задание 4
+s=int(intput())
+c=0
+for i in s:
+  if i == 'a':
+    s=s.replace('a','o')
+    c+=1
+print(s,c,len(s))
+
+#задание 5
+b=int(input())
+print(b.lower())
+
+#задание 6
+h=int(input())
+h=h.replace('a','')
+h=h.replace('A','')
+print(h)
